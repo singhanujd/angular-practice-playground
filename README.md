@@ -1,3 +1,23 @@
+#NgModule & DI (defining a module, bootstrapping application, dependency Injection)
+#Component structure ( definition, interpolation, template scope, styles encapsulation)
+
+# Dependency Injection
+  - important application design pattern
+  - dependencies are services or objects that class needs to perform its function
+  - Coding Pattern in which class ask for dependency from external sources rather than creating them itself.
+
+# What is provider in Angular
+  - A object that implements one of the Provider interface.
+  - A provider object defines how to obtain an injectable dependency associated with a DI Token.
+  - An Injector uses the provider to create a new instance of a dependency for a class that requires it.
+  - Angular registers its own providers with every injector, for services that Angular defines.
+  - You can register your own providers for services that your app needs.
+
+# Service
+  - The injectable class is instantiated by a provider.
+  - Injectors maintain lists of providers and use them to provide service instances when they are required by components or other services.
+
+
 # AngularPracticePlayground
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
