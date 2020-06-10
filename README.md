@@ -14,6 +14,7 @@
   - You can register your own providers for services that your app needs.
 
 # Service
+  - Services are singletons within the scope of an injector
   - The injectable class is instantiated by a provider.
   - Injectors maintain lists of providers and use them to provide service instances when they are required by components or other services.
 
